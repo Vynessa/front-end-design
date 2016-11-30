@@ -1,0 +1,142 @@
+
+body {
+background: #383232;
+}
+
+div.login {
+    position: relative;
+    left: 965px;
+}
+.login {
+	width: 750px;
+}
+
+.login li{
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px
+}
+
+.login li::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.login ul li {
+	padding: 5px;
+	text-align: center;
+	list-style: none;
+}
+
+.breakfast-menu {
+	list-style: none;
+	margin: 0 auto;
+	width: 1075px;
+}
+
+ol.breakfast-menu:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.breakfast-menu li {
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.breakfast-image {
+	width: 310px;
+	height: 207px;
+}
+
+.info {
+	padding: 5px;
+	background-color: white;
+	margin-top: -4px;
+
+}
+
+
+
+ul:after {
+	clear: both;
+    display: table;
+    content: "";
+}
+
+.logo{
+	margin-left: 10px;
+}
+
+
+.links ul li {
+	list-style: none;
+	float: left;
+	width: 85px;
+	margin-top: 15px;
+	text-align: center;
+	padding: 5px;
+	font-size: 15px;
+}
+
+.links:after div{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.menu-bar {
+	margin-left: 15px;
+	text-align: center;
+}
+
+.menu-bar a{
+	margin-left: 60px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.header{
+	margin: 0 auto;
+	width: 1056px;
+	border: solid #;
+}
+
+.header div{
+	float: left;
+}
+
+.header:after{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+a {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+.locations {
+	color: white;
+}
+
+table {
+	float: left;
+	width: 480px;
+	height: 200px;
+	margin: 5px;
+	margin-bottom: 20px;
+}
+
+table tr td {
+	height: 20px;
+}
+
