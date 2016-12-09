@@ -1,5 +1,15 @@
 body {
-background: #383232;
+background: #1e1b1b;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: white;
 }
 
 div.login {
@@ -117,14 +127,24 @@ ul:after {
 	display: block;
 }
 
-a {
-	font-family: 'Lato', sans-serif;
-	font-weight: bold;
-	color: white;
-}
 
 .locations {
 	color: white;
+	list-style: none;
+	margin: 0 auto;
+	width: 990px;
+}
+
+.locations:after{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.header:after{
+	clear: both;
+	content: "";
+	display: block;
 }
 
 table {
@@ -139,3 +159,33 @@ table tr td {
 	height: 20px;
 }
 
+.feedback-form form button{
+	margin 0 auto;
+	width 70px;
+	border-radius: 4px;
+}
+
+.footer-link {
+	color: #565656;
+	font-size: 13px;
+}
+
+.footer-link a {
+	color: #565656;
+
+}
+
+.footer-link ul{
+	list-style: none;
+}
+
+.footer-link ul li {
+	float: left;
+}
+
+.copyright {
+	float: right;
+}
+
+/**.footer-link a {
+}
